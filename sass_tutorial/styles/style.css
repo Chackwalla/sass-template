@@ -1,0 +1,23 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: lightblue;
+  height: 100vh;
+  color: #2b5343;
+}
+
+header button {
+  background: #cf7dff;
+}
+
+header button::after {
+  background: #041ca7;
+}
+/*# sourceMappingURL=style.css.map */
